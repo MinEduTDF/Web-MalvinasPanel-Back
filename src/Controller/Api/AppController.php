@@ -9,7 +9,7 @@ class AppController extends Controller
 
     use \Crud\Controller\ControllerTrait;
 
-    
+
 	public function initialize()
     {
         parent::initialize();
@@ -26,7 +26,7 @@ class AppController extends Controller
                 'Crud.Api',
                 'Crud.ApiPagination',
                 'Crud.ApiQueryLog'
-            ]
+            ],
         ]);
         $this->loadComponent('Auth', [
             'storage' => 'Memory',

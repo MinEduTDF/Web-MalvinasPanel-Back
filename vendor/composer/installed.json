@@ -1429,5 +1429,115 @@
             "bake",
             "cakephp"
         ]
+    },
+    {
+        "name": "muffin/slug",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/UseMuffin/Slug.git",
+            "reference": "ede2aa55440098450571ebcee80f1e23b83d77e4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/UseMuffin/Slug/zipball/ede2aa55440098450571ebcee80f1e23b83d77e4",
+            "reference": "ede2aa55440098450571ebcee80f1e23b83d77e4",
+            "shasum": ""
+        },
+        "require": {
+            "cakephp/orm": "^3.2.7"
+        },
+        "require-dev": {
+            "cakephp/cakephp": "^3.2.7",
+            "cocur/slugify": "^1.2",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2016-04-20 20:20:55",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Muffin\\Slug\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jad Bitar",
+                "homepage": "http://jadb.io",
+                "role": "Author"
+            },
+            {
+                "name": "ADmad",
+                "homepage": "https://github.com/ADmad",
+                "role": "Author"
+            },
+            {
+                "name": "Others",
+                "homepage": "https://github.com/usemuffin/slug/graphs/contributors"
+            }
+        ],
+        "description": "Slugging support for CakePHP 3 ORM",
+        "homepage": "https://github.com/usemuffin/slug",
+        "keywords": [
+            "cakephp",
+            "muffin",
+            "orm",
+            "slug"
+        ]
+    },
+    {
+        "name": "cwbit/cakephp-sluggable",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cwbit/cakephp-sluggable.git",
+            "reference": "ef55706405dbd80ff9e980a1081aff98fe50fc50"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cwbit/cakephp-sluggable/zipball/ef55706405dbd80ff9e980a1081aff98fe50fc50",
+            "reference": "ef55706405dbd80ff9e980a1081aff98fe50fc50",
+            "shasum": ""
+        },
+        "require": {
+            "cakephp/cakephp": "~3",
+            "php": ">=5.4"
+        },
+        "time": "2015-08-13 04:55:17",
+        "type": "cakephp-plugin",
+        "extra": {
+            "installer-name": "Sluggable"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sluggable\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Brescia",
+                "homepage": "https://github.com/cwbit/",
+                "role": "Author"
+            }
+        ],
+        "description": "Plugin for CakePHP 3.x that enables automatic, configurable slugging of database fields",
+        "homepage": "https://github.com/cwbit/cakephp-sluggable",
+        "keywords": [
+            "cakephp",
+            "plugin",
+            "slug",
+            "sluggable"
+        ]
     }
 ]

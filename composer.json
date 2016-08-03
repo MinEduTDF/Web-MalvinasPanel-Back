@@ -12,7 +12,6 @@
         "cakephp/plugin-installer": "*",
         "friendsofcake/crud": "~4.0",
         "admad/cakephp-jwt-auth": "^2.0",
-        "muffin/slug": "^1.1",
         "cwbit/cakephp-sluggable": "^1.0"
     },
     "require-dev": {

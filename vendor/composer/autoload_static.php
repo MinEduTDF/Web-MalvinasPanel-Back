@@ -30,6 +30,7 @@ class ComposerStaticInit2c890524c2cea3869974a29b5a891c6f
             'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
+            'Sluggable\\' => 10,
         ),
         'P' => 
         array (
@@ -39,6 +40,7 @@ class ComposerStaticInit2c890524c2cea3869974a29b5a891c6f
         ),
         'M' => 
         array (
+            'Muffin\\Slug\\' => 12,
             'Migrations\\' => 11,
         ),
         'F' => 
@@ -100,6 +102,10 @@ class ComposerStaticInit2c890524c2cea3869974a29b5a891c6f
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
+        'Sluggable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwbit/cakephp-sluggable/src',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
@@ -111,6 +117,10 @@ class ComposerStaticInit2c890524c2cea3869974a29b5a891c6f
         'Phinx\\' => 
         array (
             0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
+        ),
+        'Muffin\\Slug\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/muffin/slug/src',
         ),
         'Migrations\\' => 
         array (

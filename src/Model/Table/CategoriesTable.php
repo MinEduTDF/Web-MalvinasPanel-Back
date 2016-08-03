@@ -34,6 +34,10 @@ class CategoriesTable extends Table
         $this->hasMany('Articles', [
             'foreignKey' => 'category_id'
         ]);
+
+        $this->addBehavior('Sluggable.Sluggable', [
+          'pattern' => ':title',
+        ]);
     }
 
     /**
@@ -51,10 +55,6 @@ class CategoriesTable extends Table
         $validator
             ->requirePresence('title', 'create')
             ->notEmpty('title');
-
-        $validator
-            ->requirePresence('slug', 'create')
-            ->notEmpty('slug');
 
         return $validator;
     }

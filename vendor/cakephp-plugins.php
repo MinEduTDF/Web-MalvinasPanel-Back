@@ -6,6 +6,8 @@ return [
         'Bake' => $baseDir . '/vendor/cakephp/bake/',
         'Crud' => $baseDir . '/vendor/friendsofcake/crud/',
         'DebugKit' => $baseDir . '/vendor/cakephp/debug_kit/',
-        'Migrations' => $baseDir . '/vendor/cakephp/migrations/'
+        'Migrations' => $baseDir . '/vendor/cakephp/migrations/',
+        'Muffin/Slug' => $baseDir . '/vendor/muffin/slug/',
+        'Sluggable' => $baseDir . '/vendor/cwbit/cakephp-sluggable/'
     ]
 ];

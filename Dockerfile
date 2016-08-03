@@ -22,7 +22,7 @@ RUN a2enmod rewrite
 RUN usermod -u 1000 www-data
 # Clona el repositorio 
 RUN git clone  https://github.com/MinEduTDF/Web-MalvinasPanel-Back /Web-MalvinasPanel-Back
-RUN mv Web-MalvinasPanel-Back /var/www/html
+RUN mv /Web-MalvinasPanel-Back /var/www/html
 WORKDIR /var/www/html/Web-MalvinasPanel-Back
 RUN composer install
 RUN chown -R www-data:www-data /var/www
